@@ -1,0 +1,32 @@
+.header {
+  background-color: #ecd9c6;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+
+  .navbar {
+
+    // background-color: #ffcc00;
+  }
+
+  ul {
+    list-style: none;
+  }
+  li{
+    text-transform: uppercase;
+  }
+
+  a {
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.5em;
+    // border: 1px solid #000;
+  }
+
+  .navItem {
+    float: left;
+    display: inline;
+  }
+}
