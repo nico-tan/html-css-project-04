@@ -1,0 +1,40 @@
+.header {
+  background-color: #ecd9c6;
+  width: 100%;
+  display: flex;
+}
+
+.navbar {
+  position:relative;
+  justify-content: space-between;
+  display: block;
+  margin: 0 auto;
+
+  ul {
+    list-style: none;
+  }
+
+  li{
+    text-transform: uppercase;
+  }
+
+  a {
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.5em;
+    border-left: 2px solid #000;
+  }
+
+  li:first-child a {
+    border-left: none;
+  }
+
+  .navItem {
+    float: left;
+    display: inline;
+  }
+
+
+}
