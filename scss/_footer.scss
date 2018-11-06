@@ -1,0 +1,29 @@
+.footer {
+  background-color: #ecd9c6;
+  display: grid;
+  width: 100%;
+  text-align: center;
+
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+
+  div:nth-child(odd) {
+    background-color: #fff;
+  }
+
+}
+
+.footerNav{
+  text-align: left;
+  border-left: 3px solid #000;
+
+  li {
+
+      padding-top: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+}
