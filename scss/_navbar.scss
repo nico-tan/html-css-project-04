@@ -1,17 +1,19 @@
 .header {
   background-color: #ecd9c6;
   width: 100%;
-  display: flex;
+  display: block;
+  text-align: center;
 }
 
 .navbar {
   position:relative;
-  justify-content: space-between;
-  display: block;
-  margin: 0 auto;
-
+  display: flex;
+  text-align: center;
+  
   ul {
     list-style: none;
+    display: flex;
+    
   }
 
   li{
@@ -31,10 +33,6 @@
     border-left: none;
   }
 
-  .navItem {
-    float: left;
-    display: inline;
-  }
 
 
 }
