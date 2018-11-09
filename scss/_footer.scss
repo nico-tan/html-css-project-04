@@ -1,0 +1,73 @@
+.footer {
+  background-color: $footer-color;
+  display: grid;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+
+  h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+}
+
+.footerNav{
+  text-align: left;
+  border-left: 3px solid #000;
+
+  li {
+      padding-top: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $text-color;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+
+}
+
+.contacts {
+  text-align: left;
+  padding-top: 10px;
+
+  h6 {
+    padding-bottom: 10px;
+  }
+
+  .phone a {
+    text-decoration: none;
+    color: $text-color;
+  }
+}
+
+.hours {
+  text-align: left;
+
+  td {
+    text-align: left;
+  }
+
+  td:nth-child(2)  {
+    padding-left: 20px;
+  }
+}
+
+.socialMedia {
+
+  .icons {
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  i {
+    font-size: 2.5em;
+    padding: 3px;
+  }
+}

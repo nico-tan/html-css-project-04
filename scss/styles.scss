@@ -6,6 +6,11 @@
 // CSS Resets
 @import "resets";
 
+// Utility Imports
+@import "variables";
+@import "mixins";
+
 //CSS Documents
 @import "general";
 @import "navbar";
+@import "footer";
