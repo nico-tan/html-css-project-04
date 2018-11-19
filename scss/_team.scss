@@ -12,6 +12,10 @@
 
     img {
       border-radius: 30px;
+
+      // width: 100%;
+      // height: 100%;
+      // object-fit: contain;
     }
 
     h1,
@@ -37,8 +41,36 @@
     .barber-info {
       padding: 40px 20px;
       font-size: 1.5em;
-      float: right;
+      // float: right;
       line-height: 40px;
+    }
+
+    @include mq($tablet-landscape) {
+      display: block;
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .barber-info {
+        font-size: 1em;
+        line-height: 20px;
+      }
+    }
+
+    @include mq($phone) {
+      display: block;
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .barber-info {
+        font-size: 1em;
+        line-height: 20px;
+      }
     }
   }
 

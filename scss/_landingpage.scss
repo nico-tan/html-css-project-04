@@ -1,5 +1,4 @@
 .index-main {
-  // max-width: 100%;
   background-image: url("../images/background-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -16,18 +15,22 @@
   .slogan {
     font-size: 4em;
     font-weight: bold;
+
+    @include mq($phone) {
+        font-size: 2em;
+    }
   }
 
   .enter-button {
-    margin: 10%;
-    a {
-      font-size: 3em;
-      padding: 10px 50px;
-      font-weight: bolder;
-      color: #000;
-      text-decoration: none;
-      border: 6px #000 solid;
-      border-radius: 20px;
+      margin: 10%;
+      a {
+        font-size: 3em;
+        padding: 10px 50px;
+        font-weight: bolder;
+        color: #000;
+        text-decoration: none;
+        border: 6px #000 solid;
+        border-radius: 20px;
+      }
     }
-  }
 }

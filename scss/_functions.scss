@@ -3,13 +3,13 @@
 // Function to
 // Convert Px to Ems
 @function em($px, $bc: 16){
-    @return #{$px/$bc}em; 
+    @return #{$px/$bc}em;
 }
 
 // Function to
 // Convert Px to Rems
 @function rem($px, $bc: 16){
-    @return #{$px/$bc}rem; 
+    @return #{$px/$bc}rem;
 }
 
 // Function to determine column width
@@ -24,7 +24,7 @@
 // slash "/" ->
 // This is used in the
 // CSS Grid position list
-// and prevents SASS from 
+// and prevents SASS from
 // dividing the two grid
 // position values
 @function slash(){
