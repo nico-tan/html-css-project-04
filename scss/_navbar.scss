@@ -1,5 +1,5 @@
 .header {
-  background-color: #ecd9c6;
+  background-color: $footer-color;
   width: 100%;
   display: flex;
 }
@@ -37,7 +37,7 @@
   a:active{
     color: white;
   }
-  
+
   li:first-child a {
     border-left: none;
   }
