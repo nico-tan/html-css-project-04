@@ -54,3 +54,11 @@
 .footer{
   align-items: center;
 }
+
+@include mq($phone-wide) {
+  .navbar {
+    a {
+      font-size: 1em;
+    }
+  }
+}
