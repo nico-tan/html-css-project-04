@@ -1,5 +1,12 @@
 main {
-  background-color: #fff;
+	background-color: #fff;
+	max-width: 960px;
+	margin: 0 auto;
+	background-image: url("../images/background.jpg");
+	height: 100vh;
+}
+.index-main{
+	background-image: url("../images/background-1.jpg");
 }
 
 body {
