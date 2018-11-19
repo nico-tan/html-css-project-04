@@ -54,14 +54,6 @@ table {
 
 main {
   background-color: #fff;
-  max-width: 960px;
-  margin: 0 auto;
-  background-image: url("../images/background.jpg");
-  height: 100vh;
-}
-
-.index-main {
-  background-image: url("../images/background-1.jpg");
 }
 
 body {
@@ -111,7 +103,6 @@ body {
   justify-content: space-between;
   display: block;
   margin: 0 auto;
-  text-align: center;
 }
 .navbar .header-logo {
   text-align: center;
@@ -128,13 +119,7 @@ body {
   text-decoration: none;
   padding: 5px;
   font-size: 1.5em;
-  font-weight: bold;
   border-left: 2px solid #000;
-}
-.navbar a:hover,
-.navbar a:focus,
-.navbar a:active {
-  color: white;
 }
 .navbar li:first-child a {
   border-left: none;
@@ -142,11 +127,6 @@ body {
 .navbar .navItem {
   float: left;
   display: inline;
-  padding: 25px 0;
-}
-
-.footer {
-  align-items: center;
 }
 
 .footer {
