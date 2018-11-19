@@ -1,0 +1,35 @@
+.wrapper {
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.2;
+}
+
+}
+
+.landing-page {
+  position: absolute;
+  top: 61%;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+
+  .slogan {
+    font-size: 4em;
+    font-weight: bold;
+  }
+
+  .enter-button {
+    margin: 10%;
+    a {
+      font-size: 3em;
+      padding: 10px 50px;
+      font-weight: bolder;
+      color: #000;
+      text-decoration: none;
+      border: 6px #000 solid;
+      border-radius: 20px;
+    }
+  }
+}

@@ -69,6 +69,37 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.2;
+}
+
+.landing-page {
+  position: absolute;
+  top: 61%;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+}
+.landing-page .slogan {
+  font-size: 4em;
+  font-weight: bold;
+}
+.landing-page .enter-button {
+  margin: 10%;
+}
+.landing-page .enter-button a {
+  font-size: 3em;
+  padding: 10px 50px;
+  font-weight: bolder;
+  color: #000;
+  text-decoration: none;
+  border: 6px #000 solid;
+  border-radius: 20px;
+}
+
 .header {
   background-color: #ecd9c6;
   width: 100%;
@@ -80,6 +111,9 @@ body {
   justify-content: space-between;
   display: block;
   margin: 0 auto;
+  text-align: center;
+}
+.navbar .header-logo {
   text-align: center;
 }
 .navbar ul {
@@ -126,6 +160,11 @@ body {
 .footer h3 {
   font-weight: bold;
   padding-bottom: 10px;
+}
+
+.logo img {
+  height: 130px;
+  width: 130px;
 }
 
 .footerNav {
