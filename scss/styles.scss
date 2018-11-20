@@ -4,18 +4,19 @@
 @charset "utf-8";
 
 // CSS Resets
-@import "resets";
+@import 'resets';
 
 // Utility Imports
 
-@import "functions";
-@import "variables";
-@import "mixins";
+@import 'functions';
+@import 'variables';
+@import 'mixins';
 
 //CSS Documents
-@import "general";
-@import "landingpage";
-@import "aboutus";
-@import "team";
-@import "navbar";
-@import "footer";
+@import 'general';
+@import 'landingpage';
+@import 'aboutus';
+@import 'team';
+@import 'service';
+@import 'navbar';
+@import 'footer';
