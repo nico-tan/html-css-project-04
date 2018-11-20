@@ -69,6 +69,19 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.service-wrapper {
+  text-align: center;
+}
+.service-wrapper h1 {
+  font-size: 50px;
+  padding: 25px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.service-wrapper .service-menu {
+  font-size: 17px;
+}
+
 .wrapper img {
   width: 100%;
   height: 100%;
