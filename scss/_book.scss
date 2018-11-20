@@ -1,0 +1,23 @@
+.book-content{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.8);
+    .upper{
+        display: flex;
+        justify-content: space-evenly
+    }
+    .mapouter {
+        text-align: right;
+        margin: 0 auto;
+        height: 400px;
+        width: 800px;
+      }
+      .gmap_canvas {
+        overflow: hidden;
+        height: 400px;
+        width: 800px;
+    }
+}
+
+
