@@ -1,194 +1,253 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Book Now</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />
-  </head>
+	<head>
+		<meta charset="utf-8" />
+		<title>Book Now</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+			crossorigin="anonymous"
+		/>
+	</head>
 
-  <body>
-    <!-- Start of Header -->
-    <header class="header">
-      <div class="navbar">
-        <nav class="navContainer">
-          <img src="images/logo.png" alt="logo of OG Barbershop" />
-          <ul class="navLinks">
-            <li class="navItem"><a href="index.html">Home</a></li>
-            <li class="navItem"><a href="about.html">About</a></li>
-            <li class="navItem"><a href="team.html">Our Team</a></li>
-            <li class="navItem"><a href="service.html">Services</a></li>
-            <li class="navItem"><a href="book.html">Book</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+	<body>
+		<!-- Start of Header -->
+		<header class="header">
+			<div class="navbar">
+				<nav class="navContainer">
+					<img src="images/logo.png" alt="logo of OG Barbershop" />
+					<ul class="navLinks">
+						<li class="navItem"><a href="index.html">Home</a></li>
+						<li class="navItem"><a href="about.html">About</a></li>
+						<li class="navItem">
+							<a href="team.html">Our Team</a>
+						</li>
+						<li class="navItem">
+							<a href="service.html">Services</a>
+						</li>
+						<li class="navItem"><a href="book.html">Book</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-    <!-- Beginning of Main section -->
-    <main class="book">
-      <div class="book-content">
-        <h1 class="page-title">Book</h1>
-        <div class="upper">
-          <div class="information">
-            <div class="contacts">
-              <div class="location">
-                <h3>Location</h3>
-                <h6>1018 Mainland Street</h6>
-                <h6>Vancouver, BC V6B 2T4</h6>
-              </div>
-              <div class="phone">
-                <h3>Phone</h3>
-                <h6><a href="tel: +1-778-379-3365">+1 (778) 379 3365</a></h6>
-              </div>
-            </div>
-            <div class="hours">
-              <h3>Hours</h3>
-              <table class="hoursTable">
-                <tr>
-                  <td>Sunday</td>
-                  <td>10a.m.-12a.m.</td>
-                </tr>
-                <tr>
-                  <td>Monday</td>
-                  <td>10a.m.-12a.m.</td>
-                </tr>
-                <tr>
-                  <td>Tuesday</td>
-                  <td>10a.m.-12a.m.</td>
-                </tr>
-                <tr>
-                  <td>Wednesday</td>
-                  <td>10a.m.-12a.m.</td>
-                </tr>
-                <tr>
-                  <td>Thursday</td>
-                  <td>10a.m.-12a.m.</td>
-                </tr>
-                <tr>
-                  <td>Friday</td>
-                  <td>10a.m.-1a.m.</td>
-                </tr>
-                <tr>
-                  <td>Saturday</td>
-                  <td>10a.m.-1a.m.</td>
-                </tr>
-              </table>
-            </div>
-          </div>
+		<!-- Beginning of Main section -->
+		<main class="book">
+			<div class="book-content">
+				<h1 class="page-title">Book</h1>
+				<div class="book-row">
+					<div class="book-row-col-01 information">
+						<div class="location">
+							<h2>Location</h2>
+							<h3>1018 Mainland Street</h3>
+							<h3>Vancouver, BC V6B 2T4</h3>
+						</div>
+						<div class="phone">
+							<h2>Phone</h2>
+							<h3>
+								<a href="tel: +1-778-379-3365"
+									>+1 (778) 379 3365</a
+								>
+							</h3>
+						</div>
+						<div class="book-hours">
+							<h2>Hours</h2>
+							<table class="hoursTable">
+								<tr>
+									<td>Sunday</td>
+									<td>10a.m.-12a.m.</td>
+								</tr>
+								<tr>
+									<td>Monday</td>
+									<td>10a.m.-12a.m.</td>
+								</tr>
+								<tr>
+									<td>Tuesday</td>
+									<td>10a.m.-12a.m.</td>
+								</tr>
+								<tr>
+									<td>Wednesday</td>
+									<td>10a.m.-12a.m.</td>
+								</tr>
+								<tr>
+									<td>Thursday</td>
+									<td>10a.m.-12a.m.</td>
+								</tr>
+								<tr>
+									<td>Friday</td>
+									<td>10a.m.-1a.m.</td>
+								</tr>
+								<tr>
+									<td>Saturday</td>
+									<td>10a.m.-1a.m.</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="book-row-col-02 map">
+						<div class="gmap_canvas">
+							<iframe
+								width="100%"
+								height="100%"
+								id="gmap_canvas"
+								src="https://maps.google.com/maps?q=1018%20mainland%20street%20vancouver&t=&z=15&ie=UTF8&iwloc=&output=embed"
+								frameborder="0"
+								scrolling="no"
+								marginheight="0"
+								marginwidth="0"
+							>
+							</iframe>
+						</div>
+					</div>
+					<div class="book-row-col-03 booking">
+						<form action="/">
+							<label for="name">Name:</label>
+							<input id="name" type="text" name="name" value="" />
+							<br />
+							<label for="number">Phone Number:</label>
+							<input
+								id="number"
+								type="text"
+								name="phone-number"
+								value=""
+							/>
+							<br />
+							<label for="email">Email:</label>
+							<input
+								id="email"
+								type="email"
+								name="email"
+								value=""
+							/>
+							<br />
+							<label for="date">Date:</label>
+							<input name="date" type="date" id="date" /> <br />
+							<label for="time">Time:</label>
+							<select name="hour">
+								<option value="10">10 A.M.</option>
+								<option value="11">11 A.M.</option>
+								<option value="12">12 P.M.</option>
+								<option value="1">13 P.M.</option>
+								<option value="2">14 P.M.</option>
+								<option value="3">15 P.M.</option>
+								<option value="4">16 P.M.</option>
+								<option value="5">17 P.M.</option>
+								<option value="6">18 P.M.</option>
+								<option value="7">19 P.M.</option>
+								<option value="8">20 P.M.</option>
+								<option value="9">21 P.M.</option>
+								<option value="10">22 P.M.</option>
+								<option value="11">23 P.M.</option>
+								<option value="12">12 A.M.</option>
+								<option value="1">1 A.M.</option>
+							</select>
+							<select name="minute">
+								<option value="00">00</option>
+								<option value="15">15</option>
+								<option value="30">30</option>
+								<option value="45">45</option>
+							</select>
+							<br />
 
-          <div class="booking">
-            <form action="/#0">
-              First name:
-              <input type="text" name="name" value=""/>
-              <br>
-              Phone Number:
-              <input type="text" name="phone-number" value=""/>
-              <br>
-              Email:
-              <input type="email" name="email" value=""/>
-              <br>
-              <input type="datetime" value="Date" id="checkin" readonly>
-              <br>
-              Comment:
-              <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-              <br>
-              <input id= "submit"type="submit" value="Submit"/>
-              <br>
-              
-            </form>
-          </div>
-        </div>
-        <div class="mapouter">
-          <div class="gmap_canvas">
-            <iframe
-              width="800"
-              height="400"
-              id="gmap_canvas"
-              src="https://maps.google.com/maps?q=1018%20mainland%20street%20vancouver&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-            >
-            </iframe>
-          </div>
-        </div>
-      </div>
-    </main>
+							<label for="comment">Comments:</label>
+							<textarea
+								id="comment"
+								name="text"
+								class="feedback-input"
+								placeholder="Comment"
+							></textarea>
+							<br />
+							<input
+								id="submit"
+								class="submit"
+								type="submit"
+								value="Submit"
+							/>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="logo">
-        <img src="images/footerlogo.png" alt="logo of OG Barbershop" />
-      </div>
-      <div class="nav">
-        <ul class="footerNav">
-          <li class="footerNavItem"><a href="index.html">Home</a></li>
-          <li class="footerNavItem"><a href="about.html">About</a></li>
-          <li class="footerNavItem"><a href="team.html">Our Team</a></li>
-          <li class="footerNavItem"><a href="service.html">Services</a></li>
-          <li class="footerNavItem"><a href="book.html">Book</a></li>
-        </ul>
-      </div>
-      <div class="contacts">
-        <div class="location">
-          <h3>Location</h3>
-          <h6>1018 Mainland Street</h6>
-          <h6>Vancouver, BC V6B 2T4</h6>
-        </div>
-        <div class="phone">
-          <h3>Phone</h3>
-          <h6><a href="tel: +1-778-379-3365">+1 (778) 379 3365</a></h6>
-        </div>
-      </div>
-      <div class="hours">
-        <h3>Hours</h3>
-        <table class="hoursTable">
-          <tr>
-            <td>Sunday</td>
-            <td>10a.m.-12a.m.</td>
-          </tr>
-          <tr>
-            <td>Monday</td>
-            <td>10a.m.-12a.m.</td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>10a.m.-12a.m.</td>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
-            <td>10a.m.-12a.m.</td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>10a.m.-12a.m.</td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>10a.m.-1a.m.</td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>10a.m.-1a.m.</td>
-          </tr>
-        </table>
-      </div>
-      <div class="socialMedia">
-        <div class="icons">
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-instagram"></i> <i class="fab fa-twitter-square"></i>
-        </div>
-      </div>
-    </footer>
-  </body>
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="logo">
+				<img src="images/footerlogo.png" alt="logo of OG Barbershop" />
+			</div>
+			<div class="nav">
+				<ul class="footerNav">
+					<li class="footerNavItem"><a href="index.html">Home</a></li>
+					<li class="footerNavItem">
+						<a href="about.html">About</a>
+					</li>
+					<li class="footerNavItem">
+						<a href="team.html">Our Team</a>
+					</li>
+					<li class="footerNavItem">
+						<a href="service.html">Services</a>
+					</li>
+					<li class="footerNavItem"><a href="book.html">Book</a></li>
+				</ul>
+			</div>
+			<div class="contacts">
+				<div class="location">
+					<h3>Location</h3>
+					<h6>1018 Mainland Street</h6>
+					<h6>Vancouver, BC V6B 2T4</h6>
+				</div>
+				<div class="phone">
+					<h3>Phone</h3>
+					<h6>
+						<a href="tel: +1-778-379-3365">+1 (778) 379 3365</a>
+					</h6>
+				</div>
+			</div>
+			<div class="hours">
+				<h3>Hours</h3>
+				<table class="hoursTable">
+					<tr>
+						<td>Sunday</td>
+						<td>10a.m.-12a.m.</td>
+					</tr>
+					<tr>
+						<td>Monday</td>
+						<td>10a.m.-12a.m.</td>
+					</tr>
+					<tr>
+						<td>Tuesday</td>
+						<td>10a.m.-12a.m.</td>
+					</tr>
+					<tr>
+						<td>Wednesday</td>
+						<td>10a.m.-12a.m.</td>
+					</tr>
+					<tr>
+						<td>Thursday</td>
+						<td>10a.m.-12a.m.</td>
+					</tr>
+					<tr>
+						<td>Friday</td>
+						<td>10a.m.-1a.m.</td>
+					</tr>
+					<tr>
+						<td>Saturday</td>
+						<td>10a.m.-1a.m.</td>
+					</tr>
+				</table>
+			</div>
+			<div class="socialMedia">
+				<div class="icons">
+					<i class="fab fa-facebook-square"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-twitter-square"></i>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
