@@ -10,11 +10,9 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-
-  .header-logo {
-    text-align: center;
+  img{
+    padding-top:20px;
   }
-
   ul {
     list-style: none;
   }
@@ -51,14 +49,33 @@
 
 }
 
-.footer{
-  align-items: center;
-}
 
-@include mq($phone-wide) {
+
+@media (max-width:660px) {
   .navbar {
+    img{
+      height: 100px;
+    }
     a {
       font-size: 1em;
+    }
+  }
+}
+@media (max-width: 466px){
+  .navbar {
+    a {
+      font-size: 0.7em;
+    }
+  }
+}
+
+@media (max-width: 360px){
+  .navbar {
+    img{
+      height: 90px;
+    }
+    a {
+      font-size: 0.5em;
     }
   }
 }

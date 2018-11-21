@@ -6,16 +6,13 @@
 
   .barbers {
     display: flex;
+    justify-content: flex-start;
     width: 75%;
     margin: 0 auto;
     padding-bottom: 50px;
 
     img {
       border-radius: 30px;
-
-      // width: 100%;
-      // height: 100%;
-      // object-fit: contain;
     }
 
     h1,
@@ -40,9 +37,9 @@
 
     .barber-info {
       padding: 40px 20px;
-      font-size: 1.5em;
+      font-size: 1.3em;
       // float: right;
-      line-height: 40px;
+      line-height: 1.7;
     }
 
     @include mq($tablet-landscape) {
@@ -55,7 +52,7 @@
 
       .barber-info {
         font-size: 1em;
-        line-height: 20px;
+        line-height: 1.4;
       }
     }
 
@@ -65,11 +62,17 @@
       img {
         display: block;
         margin: 0 auto;
+        height: 50%;
       }
 
       .barber-info {
-        font-size: 1em;
-        line-height: 20px;
+        font-size: 0.7em;
+        line-height: 1.4;
+      }
+    }
+    @media (max-width: 415px) {
+      img{
+        height: 300px;
       }
     }
   }
