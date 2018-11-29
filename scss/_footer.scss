@@ -144,45 +144,54 @@
 	}
 }
 
-@include mq($phone) {
-	.logo img {
-		height: 80px;
-		width: 80px;
-	}
-
-	.nav,
-	.contacts,
-	.hours {
-		font-size: 0.4em;
-	}
-
-	.socialMedia {
-		i {
-			font-size: 1em;
-			padding: 1px;
-		}
-	}
-}
-
-@media (max-width: 565px) {
+@media (max-width: 575px) {
 	.footer {
 		display: block;
-		img {
-			width: 50px;
-			height: 50px;
+		.logo img {
+			height: 80px;
+			width: 80px;
 		}
 		.copyright {
 			display: block;
-			font-weight: bolder;
+			font-weight: bold;
+			border-top: 2px solid grey;
+			padding-top: 20px;
+			font-size: 0.7em;
+
 		}
 		.icons,
 		.logo {
 			padding-bottom: 10px;
 		}
+		.socialMedia {
+			margin-top: 20px;
+			i {
+				font-size: 1.3em;
+				padding: 1px;
+			}
+		}
+		.nav{
+			display: none;
+		}
+		.contacts{
+			display: block;
+			text-align: center;
+			font-size: 0.7em;
+			h3{
+				font-size: 1em;
+			}
+		}
+		.hours {
+			display: block;
+			text-align: center;
+			font-size: 0.7em;
+			h3{
+				font-size: 1em;
+			}
+			.hoursTable{
+				margin: 0 auto;
+			}
+		}
 	}
-	.nav,
-	.contacts,
-	.hours {
-		display: none;
-	}
+	
 }
